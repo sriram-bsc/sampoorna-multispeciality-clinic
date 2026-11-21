@@ -106,11 +106,11 @@
                 <div class="card p-4">
                     <form>
                         <label>Your Name:</label>
-                        <input type="text" class="form-control mb-3" placeholder="Name">
+                        <input type="text" id="name" class="form-control mb-3" placeholder="Name">
                         <label>Phone Number:</label>
-                        <input  type="number" class="form-control mb-3" placeholder="Phone number">
+                        <input  type="number" id="phone" class="form-control mb-3" placeholder="Phone number">
                         <label>Select Department</label>
-                        <select class="form-control mb-3">
+                        <select id="dept" class="form-control mb-3">
                             <option>General Medicine</option>
                             <option>Child Care</option>
                             <option>Ortho Care</option>
@@ -148,7 +148,7 @@
         var msg="Hi.Appoinment BookNow.name:" + name +".Phone:" + phone + ".Department:" + dept;
 
 
-        window.location.href="https://wa.me/91934222740?text= Hi";
+        window.open("https://wa.me/91934222740?text=" + encodeURIComponent(msg));
     
     }
    </script>
