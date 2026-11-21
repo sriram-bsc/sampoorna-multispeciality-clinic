@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampoorna Clinic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navber-dark bg-success" style="height: 300px;">
+        <div>
+            <h1 style="color: rgb(243, 241, 241);  text-align: center; padding: 80px;">SAMPOORNA<br> MULTISPECIALITY CLINIC</h1>
+            <!--<img src="medical.png" style="height: 150px; border-radius: 100px; float:top;">-->
+            <ul style="display: flex; gap: 20px; list-style: none; float:right;">
+                <li><a href="#Home" style="color: black;">Home</a></li>
+                <li><a href="#Specialities" style="color: black;">Specialities</a></li>
+                <li><a href="Docters" style="color: black;">Doctors</a></li>
+                <li><a href="Appoiment" style="color: black;">Appoiment</a></li>
+                <li><a href="Contact" style="color: black;">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="text-center mt-5">
+            <h2>Welcome to Sampoor Multispeciality Clinic</h2>
+            <p><b><u>Your Health,Our Priority</u></b></p>
+            <p>Compassinate care,advanced Treatment,<br>and experienced Doctors for you and your family.Book apponiment,consult Specialist,and prioritize your well-being with trusted health survices.
+            </p>
+            <button style="background-color: green; border-radius: 10px; padding: 5px; width: 160px;"><b>Book Appointment</b></button>
+            <button class="btn btn-warning"><b>Call Now</b></button>
+        </div>
+    </div>
+
+    <div class="container mt-5" id="Specialisties" >
+        <h2 class="text-center mb-4">Our Specialities</h2>
+        <div  style="width: 80px; height: 4px; background: green; margin: 10px auto;  border-radius: 10px;"></div>
+        <div class="row">
+
+
+            <div class="col-md-4 mb-3">
+                <div  class="card text-center">
+                   <div class="card-body">
+                    <img src="general.jpg" width="90px" style="border-radius: 10px;">
+                    <h2>General Medicine</h2>
+                    <p>Fever,Sugar,BP Checkup,consulting surgo n.</p>
+                    <button class="btn btn-outline-success">View</button>
+                   </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="child.jpg" width="100px" style="border-radius: 10px;">
+                        <h2>Child Care</h2>
+                        <p>Child vaccination and Checkup</p>
+                        <button class="btn  btn-outline-success">View</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <img src="ortho2.jpg"  width="90px" style="border-radius: 10px;">
+                        <h2>Ortho care</h2>
+                        <p>Bone,Joint pain Treatment</p>
+                        <button class="btn btn-outline-success">View</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-center mb-4">Our Doctors</h2>
+                 <div  style="width: 80px; height: 4px; background: green; margin: 10px auto;  border-radius: 10px;"></div>
+                <div class="row">
+                    <div class="col-md-4 md-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="mama.jpeg" style="width: 100px;">
+                                <h2 style="font-size: 20px;"><b>Dr.Chandhrasekaran</b> M.B.B.S.,M.S,DNB(Gen.surg),FIAGES,MCLS.,ACMDC(Diab).</h2>
+                                <p><b>Consultant Surgon.</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 md-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="sriram-removebg-preview.png" style="width: 100px;">
+                                <h2 style="font-size: 20px;">Dr.Sriram M.B.B.S.,M.S,(Child CARE),child surgon.</h2>
+                                <p><b>Child care.</b></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 md-3">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <img src="mani-removebg-preview.png" style="width: 100px;">
+                                <h2>Manikandan.M.B.B.S.</h2>
+                                <P><b>ORTHO CARE.</b></P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mt-5 mb-5">
+                <h2 class="text-center mb-5">Book Appoiment</h2>
+                <div  style="width: 80px; height: 4px; background: green; margin: 10px auto;  border-radius: 10px;"></div>
+                <div class="card p-4">
+                    <form>
+                        <label>Your Name:</label>
+                        <input type="text" class="form-control mb-3" placeholder="Name">
+                        <label>Phone Number:</label>
+                        <input  type="number" class="form-control mb-3" placeholder="Phone number">
+                        <label>Select Department</label>
+                        <select class="form-control mb-3">
+                            <option>General Medicine</option>
+                            <option>Child Care</option>
+                            <option>Ortho Care</option>
+                     </select>
+                     <label>Age:</label>
+                     <input type="number" class="form-control mb-3" placeholder="Age">
+                     <label>Gender:</label>
+                     <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Baby</option>
+                     </select><br><br>
+                     <button type="button" onclick="BookNow()" class="btn btn-outline-success" style="text-align: center;">Book Now</button>
+                    </form>
+                </div>
+            </div>
+            <footer class="bg-success text-white text-center py-5" style="width: 100%;">
+                <div>
+                <h2>Sampoorna Clinic-Karambakkudi</h2>
+                <p>Timing:Morning 10 AM- 1 PM | 2 PM -10 PM</p>
+                <p>7092365645</p>
+                <p>@2026sampoorna clinic</p>
+            </div>
+            </footer>
+        </div>
+    </div>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+   <script>
+       function BookNow(){
+
+        var name=document.getElementById ("name").value;
+        var phone=document.getElementById ("phone").value;
+        var dept=document.getElementById("dept").value;
+                         
+        var mgs="Hi.Appoinment BookNow.name:" + name +".Phone:" + phone + ".Department:" + dept;
+
+
+        window.location.href="https://wa.me/91934222740?text= Hi";
+    
+    }
+   </script>
+</body>
+</html>
